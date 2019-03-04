@@ -1,0 +1,43 @@
+/* ==========================================================================
+   #BREADCRUMB
+   ========================================================================== */
+
+.c-breadcrumb {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.c-breadcrumb__item {
+	display: inline-block;
+	color: $breadcrumb-item-color;
+	text-transform: uppercase;
+
+	&:first-child::before{
+		font-family: $base-icon-font;
+		font-size: rem(20px);
+		content: "\f041";
+		color: $blue-500;
+		font-weight: $font-weight-bold;
+		padding: rem(5px);
+	}
+
+	> a {
+		color: inherit;
+	}
+
+	// divider
+	&:not(:last-child)::after {
+		margin: $breadcrumb-divider-margin;
+		color: $breadcrumb-divider-color;
+		font-family: $base-icon-font;
+		font-size: rem(10px);
+		content: "\f054";
+	}
+
+	&.is-active {
+		font-size: $h4-font-size;
+		font-weight: $font-weight-semibold;
+		color: $breadcrumb-item-active-color;
+	}
+}

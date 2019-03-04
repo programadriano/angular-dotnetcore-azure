@@ -1,0 +1,64 @@
+<!-- main banner -->
+<section class="c-list-slider" *ngIf="destaque">
+    <!-- item -->
+    <a class="c-list-slider__item" itemscope="" [style]="utilService.getBackground(destaque?.url_image_banner)">
+        <div class="container">
+            <div class="c-list-slider__content" href="#!">
+                <h3 class="c-list-slider__title">{{destaque?.title}}</h3>
+                <p class="c-list-slider__description">{{destaque?.description}}</p>
+            </div>
+        </div>
+    </a><!-- ./ end item -->
+</section><!-- ./ end banner -->
+
+<!-- list intens -->
+<div class="container u-marginTop-l u-marginBottom-l">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <a>
+                <div class="o-media">
+                    <div class="o-media__img">
+                        <div class="c-avatar c-avatar--xl u-marginRight-s">
+                            <img class="c-avatar__img" src="../../../assets/images/icone-atlas.png" alt="">
+                        </div>
+                    </div>
+                    <div class="o-media__body">
+                        <h2 class="o-media__title">Atlas de Cobertura</h2>
+                        <p>Acesse e saiba mais informações.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <a>
+                <div class="o-media">
+                    <div class="o-media__img">
+                        <div class="c-avatar c-avatar--xl u-marginRight-s">
+                            <img class="c-avatar__img" src="../../../assets/images/icone-projetos.png" alt="">
+                        </div>
+                    </div>
+                    <div class="o-media__body">
+                        <h2 class="o-media__title">Tabela de Preços</h2>
+                        <p>Clique e confira a tabela de preços dos nossos projetos especiais.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <a>
+                <div class="o-media">
+                    <div class="o-media__img">
+                        <div class="c-avatar c-avatar--xl u-marginRight-s">
+                            <img class="c-avatar__img" src="../../../assets/images/icone-planos.png" alt="">
+                        </div>
+                    </div>
+                    <div class="o-media__body">
+                        <h2 class="o-media__title">Planos Comerciais</h2>
+                        <p>Clique e confira a tabela de preços dos nossos projetos especiais.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</div><!-- ./ end list intens -->

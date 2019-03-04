@@ -1,0 +1,14 @@
+C:\Users\tadriano\source\repos\Api\Api\bin\Debug\netcoreapp2.2\Api.deps.json
+C:\Users\tadriano\source\repos\Api\Api\bin\Debug\netcoreapp2.2\Api.runtimeconfig.json
+C:\Users\tadriano\source\repos\Api\Api\bin\Debug\netcoreapp2.2\Api.runtimeconfig.dev.json
+C:\Users\tadriano\source\repos\Api\Api\bin\Debug\netcoreapp2.2\Api.dll
+C:\Users\tadriano\source\repos\Api\Api\bin\Debug\netcoreapp2.2\Api.pdb
+C:\Users\tadriano\source\repos\Api\Api\obj\Debug\netcoreapp2.2\Api.csprojAssemblyReference.cache
+C:\Users\tadriano\source\repos\Api\Api\obj\Debug\netcoreapp2.2\Api.csproj.CoreCompileInputs.cache
+C:\Users\tadriano\source\repos\Api\Api\obj\Debug\netcoreapp2.2\Api.RazorAssemblyInfo.cache
+C:\Users\tadriano\source\repos\Api\Api\obj\Debug\netcoreapp2.2\Api.RazorAssemblyInfo.cs
+C:\Users\tadriano\source\repos\Api\Api\obj\Debug\netcoreapp2.2\Api.AssemblyInfoInputs.cache
+C:\Users\tadriano\source\repos\Api\Api\obj\Debug\netcoreapp2.2\Api.AssemblyInfo.cs
+C:\Users\tadriano\source\repos\Api\Api\obj\Debug\netcoreapp2.2\Api.RazorTargetAssemblyInfo.cache
+C:\Users\tadriano\source\repos\Api\Api\obj\Debug\netcoreapp2.2\Api.dll
+C:\Users\tadriano\source\repos\Api\Api\obj\Debug\netcoreapp2.2\Api.pdb
