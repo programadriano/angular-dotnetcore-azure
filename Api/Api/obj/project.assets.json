@@ -13244,11 +13244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tadriano\\source\\repos\\Api\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\projects\\band_after_vacation\\Comercial\\Api\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\tadriano\\source\\repos\\Api\\Api\\Api.csproj",
+      "projectPath": "C:\\projects\\band_after_vacation\\Comercial\\Api\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\tadriano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tadriano\\source\\repos\\Api\\Api\\obj\\",
+      "outputPath": "C:\\projects\\band_after_vacation\\Comercial\\Api\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

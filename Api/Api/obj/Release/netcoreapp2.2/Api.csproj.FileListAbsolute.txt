@@ -1,0 +1,14 @@
+C:\projects\band_after_vacation\Comercial\Api\Api\obj\Release\netcoreapp2.2\Api.csprojAssemblyReference.cache
+C:\projects\band_after_vacation\Comercial\Api\Api\obj\Release\netcoreapp2.2\Api.csproj.CoreCompileInputs.cache
+C:\projects\band_after_vacation\Comercial\Api\Api\obj\Release\netcoreapp2.2\Api.RazorAssemblyInfo.cache
+C:\projects\band_after_vacation\Comercial\Api\Api\obj\Release\netcoreapp2.2\Api.RazorAssemblyInfo.cs
+C:\projects\band_after_vacation\Comercial\Api\Api\obj\Release\netcoreapp2.2\Api.AssemblyInfoInputs.cache
+C:\projects\band_after_vacation\Comercial\Api\Api\obj\Release\netcoreapp2.2\Api.AssemblyInfo.cs
+C:\projects\band_after_vacation\Comercial\Api\Api\bin\Release\netcoreapp2.2\Api.deps.json
+C:\projects\band_after_vacation\Comercial\Api\Api\bin\Release\netcoreapp2.2\Api.runtimeconfig.json
+C:\projects\band_after_vacation\Comercial\Api\Api\bin\Release\netcoreapp2.2\Api.runtimeconfig.dev.json
+C:\projects\band_after_vacation\Comercial\Api\Api\bin\Release\netcoreapp2.2\Api.dll
+C:\projects\band_after_vacation\Comercial\Api\Api\bin\Release\netcoreapp2.2\Api.pdb
+C:\projects\band_after_vacation\Comercial\Api\Api\obj\Release\netcoreapp2.2\Api.RazorTargetAssemblyInfo.cache
+C:\projects\band_after_vacation\Comercial\Api\Api\obj\Release\netcoreapp2.2\Api.dll
+C:\projects\band_after_vacation\Comercial\Api\Api\obj\Release\netcoreapp2.2\Api.pdb

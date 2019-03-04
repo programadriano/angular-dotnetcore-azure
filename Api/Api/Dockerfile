@@ -1,4 +1,4 @@
-﻿FROM microsoft/dotnet:2.2-sdk-alpine AS build-env
+FROM microsoft/dotnet:2.2-sdk-alpine AS build-env
 WORKDIR /app
 
 # Copiar csproj e restaurar dependencias
@@ -13,4 +13,4 @@ RUN dotnet publish -c Release -o out
 FROM microsoft/dotnet:2.2-aspnetcore-runtime-alpine
 WORKDIR /app
 COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "Api.dll"]
+CMD ["dotnet", "Api.dll"]

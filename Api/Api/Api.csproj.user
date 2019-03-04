@@ -6,5 +6,6 @@
   <PropertyGroup>
     <ActiveDebugProfile>Api</ActiveDebugProfile>
     <ShowAllFiles>false</ShowAllFiles>
+    <NameOfLastUsedPublishProfile>FolderProfile</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

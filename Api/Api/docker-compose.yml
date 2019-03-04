@@ -1,14 +1,14 @@
 version: '3'
 
 services:
-  api:    
-    build:
-      context: .
+  api_dev:     
+    build: . 
     ports:
       - "5000:80"
     links:
       - link-db
-  link-db:         
+  link-db:      
+    container_name: link-db   
     image: tutum/mongodb 
     ports:
       - "27017:27017"
