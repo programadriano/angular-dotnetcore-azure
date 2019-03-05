@@ -20,9 +20,24 @@ namespace Api.Controllers
             _destaqueService = destaqueService;
         }
 
-        public Destaques Get()
+        [HttpGet]
+        public Task<Destaques> Get()
         {
             return _destaqueService.GetAll();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Post(Destaques destaque)
+        {
+            try
+            {
+                await _destaqueService.Create(destaque);
+                return Ok("Destaque cadastrado com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.ToString());
+            }
         }
     }
 }

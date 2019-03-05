@@ -1,0 +1,38 @@
+/* ==========================================================================
+   #CONTENT
+   ========================================================================== */
+
+.c-content {
+	position: relative;
+	margin-bottom: $spacer;
+	border-bottom: 3px solid $grey-400;
+
+	&__title{
+		display: flex;
+		font-size: $h1-font-size;
+		line-height: rem(30px);
+		margin-bottom: rem(3px);
+
+		&::before {
+			color: $blue-400;
+			font-size: $h3-font-size;
+			font-weight: $font-weight-bold;
+			padding-right: rem(10px);
+			font-family: $base-icon-font;
+			content: "\f105"; // fa-angle-right
+		}
+	}
+
+	&__category{
+		color: $blue-400;
+		font-size: rem(20px);
+		padding-left: rem(20px);
+		font-style: italic;
+	}
+
+	&__description{
+		font-size: $base-font-size;
+		line-height: $base-line-height;
+		margin-top: rem(15px);
+	}
+}

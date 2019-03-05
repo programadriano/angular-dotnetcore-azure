@@ -17,9 +17,17 @@ namespace Api.Repository
         {
             _repository = new MongoRepository(settings);
         }
-        public Destaques GetAll()
+
+        public async Task Create(Destaques destaque)
         {
-            return _repository.destaque.Find(x => x.title != "").FirstOrDefault();
+            destaque.dateCreated = DateTime.Now;
+            destaque.dateUpdated = DateTime.Now;
+            await _repository.destaque.InsertOneAsync(destaque);
+        }
+
+        public async Task<Destaques> GetAll()
+        {
+            return await _repository.destaque.Find(x => x.title != "").FirstOrDefaultAsync();
         }
     }
 }

@@ -1,0 +1,126 @@
+/* ==========================================================================
+   #PROGRAM
+   ========================================================================== */
+
+/**
+ * A simple component to apply program style, used with genearal widgets that
+ * have sub-components in it.
+ */
+
+.c-program {
+	position: relative;
+	background-color: $base-background-color;
+
+	@include respond-to($breakpoint-mobile) {
+		margin-bottom: $spacer;
+	}
+
+	&__figure{
+		height: rem(185px);
+		overflow: hidden;
+
+		@include respond-to($breakpoint-mobile) {
+			height: rem(100px);
+		}
+
+		&--auto{
+			height: auto;
+		}
+	}
+
+	&__title {
+		font-size: $h3-font-size;
+		line-height: rem(35px);
+
+		&--small{
+			line-height: rem(25px);
+		}
+
+		@include respond-to($breakpoint-mobile) {
+			margin-top: rem(5px);
+			font-size: $h6-font-size;
+			line-height: rem(15px);
+		}
+
+		a{
+			color: $gunmetal-500;
+		}
+
+		&--small{
+			font-size: $h4-font-size;
+		}
+	}
+
+	&__category {
+		color: $gunmetal-100;
+		font-size: $h6-font-size;
+		font-weight: $font-weight-normal;
+	}
+}
+
+
+
+
+/*
+*
+* Internal Page
+*
+*/
+
+.c-program-internal {
+	height: rem(350px);
+	border-top: rem(8px) solid #DDD;
+	position: relative;
+	padding-top: rem(30px);
+
+	@include respond-to($breakpoint-mobile) {
+		height: auto;
+		margin-bottom: rem(50px);
+	}
+
+	.c-searchbar__list{
+		position: absolute;
+		bottom: 0;
+
+		@include respond-to($breakpoint-mobile) {
+			position: initial;
+			//display: none;
+		}
+	}
+
+	&__title {
+		font-size: rem(30px);
+		margin-bottom: rem(18px);
+		line-height: 0;
+	}
+
+	&__sub-title{
+		font-size: $h4-font-size;
+		color: $grey-600;
+		margin-bottom: rem(10px);
+	}
+
+	&__description{
+		font-size: $base-font-size;
+		line-height: rem(25px);
+	}
+
+	&__container{
+		border-bottom: 2px solid $gunmetal-100;
+		padding-bottom: rem(20px);
+	}
+
+	&__date{
+		position: absolute;
+		bottom: 0;
+		font-size: $h5-font-size;
+		font-weight: $font-weight-semibold;
+		text-transform: uppercase;
+		color: $blue-500;
+
+
+		@include respond-to($breakpoint-mobile) {
+			position: initial;
+		}
+	}
+}

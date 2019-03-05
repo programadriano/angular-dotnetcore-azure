@@ -1,0 +1,184 @@
+/* ==========================================================================
+   #LIST SLIDER
+   ========================================================================== */
+
+.c-list-slider {
+	height: rem(450px);
+
+	@include respond-to($breakpoint-mobile) {
+		height: rem(215px);
+	}
+
+	&__item{
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		height: 100%;
+		-webkit-font-smoothing: antialiased;
+		display: block;
+
+		&::before{
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: #000;
+			background-image: var(--c-list-slider__item);
+			background-position: 50%;
+			background-size: cover;
+			content: "";
+			cursor: pointer;
+		}
+
+		&::after {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: linear-gradient(0deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2) 40%, rgba(0, 0, 0, .2) 80%, rgba(0, 0, 0, .4));
+			content: "";
+			z-index: 1;
+		}
+
+		.container{
+			position: relative;
+			height: 100%;
+		}
+	}
+
+	&__item h2,
+	&__item h3{
+		margin: 0;
+	}
+
+	&__content{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+		padding: 0 0 rem(25px) rem(15px);
+	}
+
+	&__hat{
+		font-weight: $font-weight-bold;
+		font-size: rem(16px);
+		line-height: 20px;
+		display: table;
+		background:#0b0c0b3d;
+		padding: rem(2px) rem(8px) rem(5px);
+		border-radius: rem(999px);
+		margin-bottom: rem(25px);
+	}
+
+	&__title{
+		font-size: rem(36px);
+		text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: -1px;
+	}
+
+	&__title,
+	&__hat,
+	&__description {
+		color: #FFF;
+	}
+
+	&__title:hover,
+	&__hat:hover{
+		color: #FFF;
+	}
+
+	@include respond-to($breakpoint-mobile) {
+		&__title {
+			font-size: 22px;
+			line-height: 25px;
+		}
+	}
+
+	&__description{
+		font-size: rem(16px);
+	}
+
+	/* Nav controls owl plugin */
+	& .owl-dots {
+		display: table;
+		margin: 20px auto 10px;
+		padding: 10px 20px 7px;
+		border-radius: 25px;
+	}
+
+	@include respond-to($breakpoint-mobile) {
+		& .owl-dots{
+			padding: 5px 10px 3px;
+			background: rgba(0, 0, 0, 0.1);
+		}
+	}
+
+	& .owl-dots .owl-dot{
+		position: relative;
+		width: 14px;
+		height: 14px;
+		text-indent: -9999px;
+		line-height: 14px;
+		/* border: none;
+		cursor: pointer; */
+		background: none;
+		border-radius: 100%;
+		border: 1px solid transparent;
+		display: inline-flex;
+		margin: 0 5px;
+	}
+
+	& .owl-dots .owl-dot::before {
+		content: '';
+		position: absolute;
+		top: 4px;
+		left: 4px;
+		bottom: 4px;
+		right: 4px;
+		border-radius: 100%;
+		-webkit-transition: all 200ms linear;
+		transition: all 200ms linear;
+	}
+
+	& .owl-dots .owl-dot.active {
+		animation: pulse 2s infinite;
+	}
+		/*animation for .owl-dots */
+		@-webkit-keyframes pulse {
+			0% {
+				-webkit-box-shadow: 0 0 0 0 rgba(212, 44, 20, 0.1);
+			}
+			70% {
+				-webkit-box-shadow: 0 0 0 10px rgba(212, 44, 20, 0.1);
+			}
+			100% {
+				-webkit-box-shadow: 0 0 0 0 rgba(212, 44, 20, 0.1);
+			}
+		}
+
+		@keyframes pulse {
+			0% {
+				-moz-box-shadow: 0 0 0 0 rgba(212, 44, 20, 0.1);
+				box-shadow: 0 0 0 0 rgba(212, 44, 20, 0.1);
+			}
+			70% {
+				-moz-box-shadow: 0 0 0 10px rgba(212, 44, 20, 0.1);
+				box-shadow: 0 0 0 10px rgba(212, 44, 20, 0.1);
+			}
+			100% {
+				-moz-box-shadow: 0 0 0 0 rgba(212, 44, 20, 0.1);
+				box-shadow: 0 0 0 0 rgba(212, 44, 20, 0.1);
+			}
+		}
+
+	& .owl-dots .owl-dot.active:before{
+		-webkit-transform: scale(1.5);
+		-moz-transform: scale(1.5);
+		transform: scale(1.5);
+	}
+}

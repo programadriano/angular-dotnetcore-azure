@@ -1,0 +1,17 @@
+{
+  "name": "prerender2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "phantom": "^6.0.3",
+    "sleep-promise": "^8.0.1"
+  }
+}

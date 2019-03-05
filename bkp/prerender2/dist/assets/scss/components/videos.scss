@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #VIDEOS
+   ========================================================================== */
+
+.c-video {
+	position: relative;
+	margin-bottom: $spacer;
+
+	&__title{
+		font-size: rem(30px);
+		line-height: rem(30px);
+	}
+
+	&__player{
+		height: rem(350px);
+
+		@include respond-to($breakpoint-mobile) {
+			height: rem(190px);
+		}
+	}
+}

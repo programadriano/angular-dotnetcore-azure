@@ -8,6 +8,8 @@ namespace Api.Domain
 {
     public interface IDestaqueService
     {
-        Destaques GetAll();
+        Task<Destaques> GetAll();
+        Task Create(Destaques destaque);
+
     }
 }

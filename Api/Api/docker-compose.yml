@@ -2,9 +2,9 @@ version: '3'
 
 services:
   api_dev:     
-    image: tadrianonet/apidestaques 
+    image: tadrianonet/apieveris
     ports:
-      - "5000:80"
+      - "80:80"
     links:
       - link-db
   link-db:      
