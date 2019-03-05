@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  url:'//apicomercial.band.com.br/api/v1'
+  url: 'http://localhost:5000/api'
 };

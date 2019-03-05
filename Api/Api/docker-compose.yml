@@ -2,7 +2,7 @@ version: '3'
 
 services:
   api_dev:     
-    build: . 
+    image: tadrianonet/apidestaques 
     ports:
       - "5000:80"
     links:
