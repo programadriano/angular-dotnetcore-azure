@@ -3,8 +3,9 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 
 import { Subscription } from 'rxjs';
 
-import { HomeService, UtilService } from 'src/app/services';
-import { Destaque } from 'src/app/models';
+import { HomeService } from 'src/app/services/home.service';
+import {UtilService} from 'src/app/services/util.service'
+import { Destaque } from 'src/app/models/destque.model';
 
 @Component({
   selector: 'app-home',
