@@ -1,0 +1,5 @@
+az login
+--az group create -l westus -n azRGMeetup
+az container create --resource-group azRGMeetup --name site-everis --image tadrianonet/everisite --dns-name-label siteeverisdemo --ports 80
+az container show --resource-group azRGMeetup  --name site-everis --query "{FQDN:ipAddress.fqdn,ProvisioningState:provisioningState}" --out table
+az container exec --resource-group azRGMeetup  --name site-everis --exec-command "/bin/sh"

@@ -23,7 +23,7 @@ COPY . ./
 RUN dotnet publish -c Release -o out
 
 # Build da imagem
-FROM tadrianonet/apinetcore:v1
+FROM microsoft/dotnet:2.2-sdk-alpine
 WORKDIR /app
 COPY --from=build-env /app/out .
 CMD ["dotnet", "Api.dll"]

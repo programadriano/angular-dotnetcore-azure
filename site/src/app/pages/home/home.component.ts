@@ -15,7 +15,7 @@ import { Destaque } from 'src/app/models/destque.model';
 export class HomeComponent implements OnInit, OnDestroy {
 
   public inscricao: Subscription;
-  public destaque: Destaque;  
+  public destaque: Destaque;
 
   constructor(
     private homeService: HomeService,

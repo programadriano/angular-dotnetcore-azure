@@ -1,10 +1,7 @@
 {
     "editoria" : "Jogo Aberto",
-    "title" : "Marque um golaço com seu produto!",
+    "title" : "Marque um golaco com seu produto!",
     "link_banner" : "http://comercial.band.com.br/planos/5c49eff8e9262f17342bfb57",
-    "description" : "Faça um anúncio de sua marca no programa esportivo e blablablalabla",
-    "url_image_banner" : "https://imagem.band.com.br/novahome/comercial/73aa8d31-38d1-47cd-8940-a11ba8df31c4.jpg",
-    "dateCreated" : ISODate("2019-01-31T14:08:15.001Z"),
-    "__v" : 0,
-    "dateUpdated" : ISODate("2019-02-05T22:27:58.807Z")
+    "description" : "Faca um anucio de sua marca no programa esportivo e blablablalabla",
+    "url_image_banner" : "https://imagem.band.com.br/novahome/comercial/73aa8d31-38d1-47cd-8940-a11ba8df31c4.jpg"
 }

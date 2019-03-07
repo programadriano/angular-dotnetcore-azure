@@ -6,8 +6,6 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class UtilService {
 
-
-
   constructor(
     private _sanitizer: DomSanitizer
   ) { }
